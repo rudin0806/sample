@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figma Doc</title>
+    <link rel="stylesheet" href="css/figmadoc.css">
 </head>
 <body>
-  <div class="container">
-  <h1>My Profile</h1>
-  <img src="/images/_ (7) 1.png alt="Profile Image" class="profileImg">
-  <h2>So0yeon</h2>
-<p>안녕하세요 저는 박수연입니다. 육각형 신입을 꿈꾸지만 사각형이라도 좋을 것 같네요-</p>
-<p>현재, 구름 프로덕트디자이너 1회차 코스를 수강중입니다 [goorm].</p>
-<div class="contact">
-<p>여기서 저를 찾아주세요:</p>
-<a href="mailto:suzie0806@naver.com">suzie0806@naver.com</a>
-<a href="https://www.instagram.com/xooooyeon/">전화번호 대신 인스타 주소를 공개합니다</a>
-</div>
-<div class="formContainer">
-<h3>Contact Me</h3>
-<form action="/" method="POST">
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
+    <div class="screen">
+        <header class="header">
+            <div class="text-wrapper">2024Y</div>
+            <div class="kakao-x-goorm-deep">Kakao X Goorm. Deep Dive</div>
+        </header>
 
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
+        <div class="frame">
+            <div class="content">
+                <div class="text-section">
+                    <p class="intro">안녕하세요, Kakao X Goorm. Deep Dive <br>프로덕트 디자이너 1회차 수강생</p>
+                    <h1 class="name">박수연입니다</h1>
+                    <p class="contact">🧿 010. 0000. 0000<br>🏠 서울시 00구 000로 00길</p>
+                </div>
+                <div class="image-section">
+                    <img src="/images/많은 추억을 사진으로 남기는 걸 좋아해.jpeg" alt="추억은 사진" class="rectangle">
+                </div>
+            </div>
+        </div>
 
-<label for="message">Message:</label>
-<input type="text" id="message" name="message" required>
+        <div class="button-section">
+            <a href="mailto:suzie0806@naver.com" class="contact-button">이메일로 연락하고 싶어요</a>
+            <a href="https://www.instagram.com/xooooyeon/" class="contact-button1">개인 연락처로 연락하고 싶어요</a>
+        </div>
 
-<button type="submit">Submit</button>
-</form>
-</div>
-</div>
-</body></html>
+        <footer class="footer">
+            <input type="text" class="input-field" placeholder="잊기 전에.. 메모!">
+        </footer>
+    </div>
+</body>
+</html>
