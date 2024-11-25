@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* 주석 영역을 작성합니다. 그리드 css를 작성합니다 */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+.GridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 1500px;
+}
+.GridItem {
+  background-color: rgb(127, 133, 148);
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.GridItem img {
+  width: 100%;
+  display: block;
+}
