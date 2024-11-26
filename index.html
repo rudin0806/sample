@@ -1,39 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma Doc</title>
-    <link rel="stylesheet" href="css/figmadoc.css">
+    <title>Sooyeon Bread Shop</title>
+    <link rel="stylesheet" href="/sample/css/sooyeonbbang.css">
 </head>
 <body>
-    <div class="screen">
-        <header class="header">
-            <div class="text-wrapper">2024Y</div>
-            <div class="kakao-x-goorm-deep">Kakao X Goorm. Deep Dive</div>
-        </header>
-
-        <div class="frame">
-            <div class="content">
-                <div class="text-section">
-                    <p class="intro">안녕하세요, Kakao X Goorm. Deep Dive <br>프로덕트 디자이너 1회차 수강생</p>
-                    <h1 class="name">박수연입니다</h1>
-                    <p class="contact">🧿 010. 0000. 0000<br>🏠 서울시 00구 000로 00길</p>
-                </div>
-                <div class="image-section">
-                    <img src="/images/많은 추억을 사진으로 남기는 걸 좋아해.jpeg" alt="추억은 사진" class="rectangle">
-                </div>
-            </div>
+    <div class="background">
+        <img src="/sample/images/이미지 소스/background.png" alt="배경 이미지" class="background-image">
+        <h1 class="title">Sooyeon Bread Shop</h1>
+        <div class="cart-container">
+            <h2>장바구니,,</h2>
+            <div id="cart"></div>
+            <h3>Total: <span id="total">0</span>원이랍니다?</h3>
         </div>
-
-        <div class="button-section">
-            <a href="mailto:suzie0806@naver.com" class="contact-button">이메일로 연락하고 싶어요</a>
-            <a href="https://www.instagram.com/xooooyeon/" class="contact-button1">개인 연락처로 연락하고 싶어요</a>
+        <div class="speech-bubble-container">
+            <img src="/sample/images/이미지 소스/speech-bubble.png" alt="말풍선" class="speech-bubble-image">
+            <div id="speech" class="speech-text">어서옵쇼!</div>
         </div>
-
-        <footer class="footer">
-            <input type="text" class="input-field" placeholder="잊기 전에.. 메모!">
-        </footer>
+        <div class="character">
+            <img src="/sample/images/이미지 소스/character.png" alt="캐릭터 이미지" class="character-image">
+        </div>
+        <div class="bread-container">
+            <button class="bread" data-name="소보로" data-price="3000" style="top: 20%; left: 40%;">
+                <img src="/sample/images/이미지 소스/soboro.png" alt="소보로 빵">
+            </button>
+            <button class="bread" data-name="메론빵" data-price="3500" style="top: 30%; left: 60%;">
+                <img src="/sample/images/이미지 소스/melon.png" alt="메론빵">
+            </button>
+            <button class="bread" data-name="식빵" data-price="2500" style="top: 50%; left: 50%;">
+                <img src="/sample/images/이미지 소스/shikbbang.png" alt="식빵">
+            </button>
+            <button class="bread" data-name="피자빵" data-price="4000" style="top: 40%; left: 30%;">
+                <img src="/sample/images/이미지 소스/pizza.png" alt="피자빵">
+            </button>
+            <button class="bread" data-name="크로와상" data-price="5000" style="top: 60%; left: 70%;">
+                <img src="/sample/images/이미지 소스/croissant.png" alt="크로와상">
+            </button>
+        </div>
     </div>
+    <script src="/sample/js/sooyeonbbang.js"></script>
 </body>
 </html>
